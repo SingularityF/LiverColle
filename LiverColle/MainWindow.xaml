@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LiverColle"
         mc:Ignorable="d"
-        Title="LiverColle" Height="350" Width="525" MinHeight="350" MinWidth="525" Loaded="Window_Loaded" Icon="LiverColleLogo.png">
+        Title="LiverColle" Height="350" Width="525" MinHeight="380" MinWidth="525" Loaded="Window_Loaded" Icon="LiverColleLogo.png">
     <Grid>
         <Grid x:Name="ControlPanel" Background="#FF555555" >
             <TabControl Background="#FFE0E0E0" BorderBrush="{x:Null}" BorderThickness="0">
@@ -91,6 +91,11 @@
                                     <Label x:Name="ReachedUpperBoundDisplay" Content="No" FontSize="12" Foreground="White"></Label>
                                 </StackPanel>
                             </Canvas>
+                            <Grid Height="30">
+                                <Label HorizontalAlignment="Center" Content="出撃数:" FontSize="12" Foreground="White" Margin="0,0,110,0"></Label>
+                                <TextBox HorizontalAlignment="Center" FontSize="12" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="25" Width="50"></TextBox>
+                            </Grid>
+
                         </StackPanel>
                     </Grid>
                 </TabItem>
