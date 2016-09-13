@@ -1,9 +1,8 @@
+version 1.3.1:
+1. Added Syutsugeki logger.
+
 version 1.3:
 1. Added SenseiTaisen scheme.
 2. Added Unrestricted stop condition.
 3. Retrained multiple detectors to adapt to UI changes of a newer version of Poi.
 4. Added ReachedUpperBound detector to notify users when new ships are no longer able to be got.
-
-
-version 1.3.1:
-1. Added Syutsugeki logger.
